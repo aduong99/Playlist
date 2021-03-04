@@ -40,6 +40,14 @@ var intro = ['Hi!', 'Are you ready to get a random playlist?', 'All you need to 
 
 var songs = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Stroke', 'Com Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
 
+var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Stroke', 'Com Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
+
+// generate an array of random strings from the master set
+var smallStrings = [];
+
+// number of small strings to display or use
+var numSmallStrings = [];   
+
 // global variable for individual playlist
 var playlist1 = [];
 
@@ -79,6 +87,9 @@ function setup() {
   //center drawing objects
   textAlign(CENTER);
   textFont('Brice');
+
+  smallStrings = strings;
+  numSmallStrings = strings.length;
 
   // set to Category for startup
   drawFunction = drawTitle;
@@ -138,14 +149,17 @@ drawRandomPlaylist = function() {
   fill(255);
   textSize(15);
 
-  // parse though string array
-  for ( let i = 0; i < songs.length; i++ ) {
+  // // parse though string array
+  // for ( let i = 0; i < songs.length; i++ ) {
     
-    // need to figure out how to generate a new string that randomly chooses from preexisting string
-    text((songs[i]), midX, startY + (i * lineHeight) );
+  //   // need to figure out how to generate a new string that randomly chooses from preexisting string
+  //   text((songs[i]), midX, startY + (i * lineHeight) );
 
+  // }
+  // return;
+  for( let i = 0 ; i < numSmallStrings; i++ ) {
+      text( smallStrings[i], midX, startY + (i * lineHeight) )
   }
-  return;
 
 }
 
@@ -1415,10 +1429,14 @@ function keyPressed() {
 
   if ( drawFunction === drawLifeSwitch ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawTheaterSnack ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawJohnHugesMovie) {
