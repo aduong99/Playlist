@@ -1553,6 +1553,12 @@ function keyPressed() {
     numSmallStrings = 10;
   }
 
+  if ( drawFunction === drawMarvelSidekick ) {
+    drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
+  }
+
 
 }
 
