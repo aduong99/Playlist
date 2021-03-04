@@ -38,9 +38,7 @@ var i = 0;
 var intro = ['Hi!', 'Are you ready to get a random playlist?', 'All you need to do is answer a few questions :-)', 'Press key #1-3 to choose an answer from left to right', 'Press key " S " to start', 'Press key " I " to go back to this page', 'Press key " T " to go back to the title page'];
 
 
-var songs = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Stroke', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
-
-var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Stroke', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
+var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Strokes', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
 
 // generate an array of random strings from the master set
 var smallStrings = [];
@@ -191,15 +189,16 @@ drawFastFoodItem = function() {
 
   text("McDonald's", width/2 + gHover, height/3);
   text("Fries", width/2 + gHover, height/3 + 20);
-  image(images[24], width/2 - 100, height/2);
+  image(images[30], width/2 - 100, height/2);
 
   text("In-N-Out", width/2 - 300 + gHover, height/3);
   text("Burger", width/2 - 300 + gHover, height/3 + 20);
-  image(images[30], width/2 + 200, height/2);
+  image(images[24], width/2 - 400 , height/2);
 
   text("Taco Bell's Crunch", width/2 + 300 + gHover, height/3);
   text("Wrap Supreme", width/2 + 300 + gHover, height/3 + 20);
-  image(images[48], width/2 - 400 , height/2);
+  image(images[48], width/2 + 200, height/2 + 50);
+
 
 }
 
