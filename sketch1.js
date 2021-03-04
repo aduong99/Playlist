@@ -38,9 +38,9 @@ var i = 0;
 var intro = ['Hi!', 'Are you ready to get a random playlist?', 'All you need to do is answer a few questions :-)', 'Press key #1-3 to choose an answer from left to right', 'Press key " S " to start', 'Press key " I " to go back to this page', 'Press key " T " to go back to the title page'];
 
 
-var songs = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Stroke', 'Com Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
+var songs = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Stroke', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
 
-var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Stroke', 'Com Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
+var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Stroke', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
 
 // generate an array of random strings from the master set
 var smallStrings = [];
@@ -1441,74 +1441,116 @@ function keyPressed() {
 
   if ( drawFunction === drawJohnHugesMovie) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawBreakfast ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawAdobeApp ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawPokemonStarter ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawSpiderman ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawRewatchShow ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === draw80sHit ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawNuggetShape ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawBook ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawChip ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawChristmasMovie ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawDogBreed ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawCity ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawPizzaChain ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawHalloweenCandy ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawIceCream ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawSuperpower ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
   if ( drawFunction === drawCoffeeChain ) {
     drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
+  }
+
+  if ( drawFunction === drawTheOfficeCharacter ) {
+    drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
   }
 
 
