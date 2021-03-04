@@ -38,7 +38,6 @@ var intro = ['Hi!', 'Are you ready to get a random playlist?', 'All you need to 
 
 var songs = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean'];
 
-var randomPlaylist = [];
 
 // global variables for instructions page
 var midX;
@@ -1498,10 +1497,5 @@ function mousePressed() {
     // mouse click to instruction screen
     drawFunction = drawIntro ;
   }
-
-  // take user back to title screen after resutls shown
-  // if ( drawFunction === drawRandomPlaylist ) {
-  //   drawFunction = drawTitle;
-  // }
 
 }
