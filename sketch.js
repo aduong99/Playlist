@@ -1558,6 +1558,29 @@ function keyPressed() {
     numSmallStrings = 10;
   }
 
+  if ( drawFunction === drawMichaelCera ) {
+    drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
+  }
+
+  if ( drawFunction === drawChickFlick ) {
+    drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
+  }
+
+  if ( drawFunction === drawAnimatedSeries ) {
+    drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
+  }
+
+  if ( drawFunction === drawDecade ) {
+    drawFunction = drawRandomPlaylist ;
+    smallStrings = shuffle(strings);
+    numSmallStrings = 10;
+  }
 
 }
 
