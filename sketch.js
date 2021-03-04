@@ -2,13 +2,14 @@
   Playlist Generator
   by An Duong
 
-  This is a Buzzfeed-esque series of questions that will ask the user a series of questions. At the end, a playlist will be generated based on the response.
+  The intended audience for this project is for young adults or older teenagers (28-18). The questions asked are mainly pop culture. This state machine is not limited to any sites and is used for entertainment purposes. However, a home would make the most sense for this to be interacted with the most.
+
+  This is a state machine project that will allow the user to answer a series of questions and output an array of songs (‘playlist’), Each question will lead to a different set of questions resulting in not only a non-linear, but essentially exponential navigation. Each question will depend on the one before it and the last question will lead to an auto-generated playlist.
 
   cite:
   https://editor.p5js.org/Noshin/sketches/r4LqGxJe7
   https://editor.p5js.org/aatish/sketches/kwq05rOSP
   https://editor.p5js.org/bengrosser/sketches/rycQ1D9zN
-  https://github.com/sngrasso/RoomsOfMyDreamHouse/blob/main/sketch.js
 
 
 ***********************************************************************************/
