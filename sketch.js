@@ -170,7 +170,6 @@ drawIntro = function() {
   // fill green color
   fill('#1DB954');
   textSize(24);
-  lineHeight(50);
 
   // parse though string array
   for ( let i = 0; i < intro.length; i++ ) {
