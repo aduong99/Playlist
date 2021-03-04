@@ -54,7 +54,7 @@ var playlist1 = [];
 // global variables for instructions page
 var midX;
 var startY;
-var lineHeight = 50;
+var lineHeight = 40;
 
 // global variables for stars background
 var spot = {
@@ -144,7 +144,6 @@ drawRandomPlaylist = function() {
   // position songs text
   midX = width/2;
   startY = 200;
-  lineHeight = 20;
 
   fill(255);
   textSize(15);
@@ -171,6 +170,7 @@ drawIntro = function() {
   // fill green color
   fill('#1DB954');
   textSize(24);
+  lineHeight(50);
 
   // parse though string array
   for ( let i = 0; i < intro.length; i++ ) {
