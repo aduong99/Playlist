@@ -48,13 +48,12 @@ var smallStrings = [];
 // number of small strings to display or use
 var numSmallStrings = [];   
 
-// global variable for individual playlist
-var playlist1 = [];
-
-// global variables for instructions page
+// global variables for drawIntro()
 var midX;
 var startY;
 var lineHeight1 = 60;
+
+// global variables for drawPlaylist()
 var lineHeight2 = 40;
 
 // global variables for stars background
