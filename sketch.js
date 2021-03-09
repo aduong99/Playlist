@@ -17,7 +17,8 @@
 var images = [];
 
 // array of assets
-var assets = ['applePie.png', 'andrewGarfield.png', 'avocadoToast.png', 'baguette.png', 'brioche.png', 'bucky.png', 'bulbasaur.png', 'cereal.png', 'charmander.png', 'cinnamonToast.png', 'community.png', 'creedBratton.png', 'doloresUmbridge.png', 'elbows.png', 'fairyGodMother.png', 'falcon.png', 'farfalle.png', 'findingNemo.png', 'frootLoops.png', 'frostedFlakes.png', 'gameofThrones.png','gingerbreadMan.png',  'himym.png', 'indesign.png', 'innoutBurger.png', 'jupiter.png', 'kellyKapoor.png', 'krisJenner.png', 'lordFarquaad.png', 'madEyeMoody.png', 'mcdFries.png', 'meanGirls.png', 'meredithPalmer.png','neptune.png', 'pancakes.png', 'parksAndRec.png', 'pecanPie.png', 'penne.png', 'photoshop.png', 'pumpkinPie.png','remusLupin.png', 'pluto.png', 'shaq.png', 'shawshank.png', 'shuri.png', 'sourdough.png', 'squirtle.png', 'stepUp2.png', 'tbCrunchWrap.png', 'theIncredibles.png','theOffice.png', 'timotheeChalamet.png', 'tobyMaguire.png','tomHolland.png', 'toyStory.png', 'xd.png', 'danceWithSomebody.png', 'dontStopBelieving.png', 'totalEclipse.png', 'jonSnow.png', 'hurley.png','tedMosby.png'];
+var assets = ['applePie.png', 'andrewGarfield.png', 'avocadoToast.png', 'baguette.png', 'brioche.png', 'bucky.png', 'bulbasaur.png', 'cereal.png', 'charmander.png', 'cinnamonToast.png', 'community.png', 'creedBratton.png', 'doloresUmbridge.png', 'elbows.png', 'fairyGodMother.png', 'falcon.png', 'farfalle.png', 'findingNemo.png', 'frootLoops.png', 'frostedFlakes.png', 'gameofThrones.png','gingerbreadMan.png',  'himym.png', 'indesign.png', 'innoutBurger.png', 'jupiter.png', 'kellyKapoor.png', 'krisJenner.png', 'lordFarquaad.png', 'madEyeMoody.png', 'mcdFries.png', 'meanGirls.png', 'meredithPalmer.png','neptune.png', 'pancakes.png', 'parksAndRec.png', 'pecanPie.png', 'penne.png', 'photoshop.png', 'pumpkinPie.png','remusLupin.png', 'pluto.png', 'shaq.png', 'shawshank.png', 'shuri.png', 'sourdough.png', 'squirtle.png', 'stepUp2.png', 'tbCrunchWrap.png', 'theIncredibles.png','theOffice.png', 'timotheeChalamet.png', 'tobyMaguire.png','tomHolland.png', 'toyStory.png', 'xd.png', 'danceWithSomebody.png', 'dontStopBelieving.png', 'totalEclipse.png', 'jonSnow.png', 'hurley.png','tedMosby.png', 'hotDog.png', 'nachos.png', 'popcorn.png', 'ball.png', 'bone.png', 'boot.png', 'killAMockingBird.png', 'catcherInRye.png', 'theGreatGatsby.png', 'lays.png', 'doritos.png', 'cheetos.png', 'elf.png', 'homeAlone.png', 'nightmare.png', 'corgi.png', 'pug.png', 'dachshund.png', 'futurama.png', 'avatar.png', 'rickAndMorty.png', 'scottPilgrim.png', 'superbad.png', 'juno.png', 'clueless.png', 'shesTheMan.png', '10things.png', 'breakfastClub.png', 'sixteenCandles.png', 'ferris.png', 'rome.png', 'tokyo.png', 'rio.png', 'dominos.png', 'pizzaHut.png', 'papaJohns.png', 'reese.png', 'snickers.png', 'kitKat.png', 'firecracker.png', 'strawberryShortcake.png', 'chocoTaco.png', 'hulk.png', 'profX.png', 'superman.png', 'vet.png', 'firefighter.png', 'astronaut.png', 'starbucks.png', 'peets.png', 'dunkin.png', '1920.png', '1950.png', '1970.png', 'rose.png', 'lily.png', 'daffodil.png', 'cactus.png', 'aloeVera.png', 'succulent.png'];
+
 
 // variable that is a function 
 var drawFunction;
@@ -39,7 +40,7 @@ var i = 0;
 var intro = ['Hi!', 'Are you ready to get a random playlist?', 'All you need to do is answer a few questions :-)', 'Press key #1-3 to choose an answer from left to right', 'Press key " S " to start', 'Press key " I " to go back to this page', 'Press key " T " to go back to the title page'];
 
 
-var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It on the Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Written by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach HOuse', 'Reptilla by The Strokes', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra'];
+var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It On The Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Unwritten by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach House', 'Reptilla by The Strokes', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra', '679 by Fetty Wap', 'Nice For What by Drake', 'You Belong With Me by Taylor Swift', 'No Flocking by Kodack Black', 'Faneto by Chief Keef', 'Spring Day by BTS', 'Heartshaker by Twice', 'Half Moon by Dean', 'Your Song by Birdy', 'Ordinary People by John Legend', 'Redbone by Childish Gambino', 'Who Hurt You? by Daniel Caesar', 'Honey by Kehlany', '5% Tint by Travis Scott', 'Sideline Watching by Lil Uzi', 'Dior by Pop Smoke', 'If I Were A Boy by Beyonce', "Marvin's Room by Drake", 'Bleeding Love by Leona Lewis', 'Because of You by Kelly Clarkson', 'Complicated by Avril Lavigne', 'The Only Exception by Paramore', 'Epiphany by BTS', 'Hot Girl by Megan Thee Stallion', 'No Diggity by Blackstreet', 'Shoop by Salt-N-Pepa', 'The Next Episode by Dr. Dre and Snoop Dogg', 'Back & Forth by Aaliyah', 'Creep by TLC', "Lady by D'Angelo", 'C.R.E.A.M. by Wu-Tang Clan', 'Poison by Bell Biv DeVoe', 'How Do You Want It by Tupac', 'The Real Slim Shady by Eminem', 'Oops!... I Did It Again by Britney Spears', 'Wish You Were Here by Pink Floyd', 'Crazy by Gnarls Barkley', 'Hotel California by Eagles', 'Septempber by Earth, Wind, Fire', 'Superstition by Stevie Wonder', 'Hound Dog by Elvis Presley', 'Africa by TOTO', 'Play That Funky Music by Wild Cherry', 'Sunny by Boney M.', 'Who Says by Selena Gomez', 'S.O.S by the Jonas Brothers', '7 Things by Miley Cyrus', 'Boyfriend by Big Time Rush', 'Bet On It by Troy', 'Cherry Wine', 'Yellow by Coldplay', 'lays.png', 'doritios.png', 'cheetos.png', 'breakfastClub.png', 'sixteenCandles.png', 'ferris.png']
 
 // generate an array of random strings from the master set
 var smallStrings = [];
@@ -72,8 +73,9 @@ function preload() {
   Brice = loadFont('Brice/Brice-Regular.otf');
 
   for ( var i = 0; i < assets.length; i++ ) {
-    images[i] = loadImage('assets250/' + assets[i])
+    images[i] = loadImage('assets/' + assets[i])
   }
+
 
   // images[0] = loadImage('assets/five.png');
 
@@ -147,14 +149,6 @@ drawRandomPlaylist = function() {
   fill(255);
   textSize(15);
 
-  // // parse though string array
-  // for ( let i = 0; i < songs.length; i++ ) {
-    
-  //   // need to figure out how to generate a new string that randomly chooses from preexisting string
-  //   text((songs[i]), midX, startY + (i * lineHeight) );
-
-  // }
-  // return;
   for( let i = 0 ; i < numSmallStrings; i++ ) {
       text( smallStrings[i], midX, startY + (i * lineHeight) )
   }
@@ -177,6 +171,36 @@ drawIntro = function() {
   return;
 }
 
+// inputs 6 answers and displays it in set position
+
+function displayAnswerLong(answer1, answer2, answer3, answer4, answer5, answer6) {
+
+  text(answer1, width/2 + gHover, height/3);
+  text(answer2, width/2 + gHover, height/3 + 20);
+
+
+  text(answer3, width/2 - 300 + gHover, height/3);
+  text(answer4, width/2 - 300 + gHover, height/3 + 20);
+
+
+  text(answer5, width/2 + 300 + gHover, height/3);
+  text(answer6, width/2 + 300 + gHover, height/3 + 20)
+}
+
+function displayAnswerShort(answer1, answer2, answer3) {
+  fill(255);
+  textSize(24);
+  text(answer1, width/2 + gHover, height/3);
+  text(answer2, width/2 - 300 + gHover, height/3);
+  text(answer3, width/2 + 300 + gHover, height/3);
+}
+
+function displayImages(image1, image2, image3) {
+  image(image1,  width/2 - 100 + gHover, height/2);
+  image(image2, width/2 - 400 + gHover, height/2);
+  image(image3, width/2 + 200 +gHover, height/2);
+}
+
 // page 1
 drawFastFoodItem = function() {
   fill('#1DB954');
@@ -186,20 +210,9 @@ drawFastFoodItem = function() {
 
   fill(255);
   textSize(24);
+  displayAnswerLong("McDonald's", "Fries", "In-N-Out", "Burger", "Taco Bell's Crunch", "Wrap Supreme");
 
-
-  text("McDonald's", width/2 + gHover, height/3);
-  text("Fries", width/2 + gHover, height/3 + 20);
-  image(images[30], width/2 - 100, height/2);
-
-  text("In-N-Out", width/2 - 300 + gHover, height/3);
-  text("Burger", width/2 - 300 + gHover, height/3 + 20);
-  image(images[24], width/2 - 400 , height/2);
-
-  text("Taco Bell's Crunch", width/2 + 300 + gHover, height/3);
-  text("Wrap Supreme", width/2 + 300 + gHover, height/3 + 20);
-  image(images[48], width/2 + 200, height/2 + 50);
-
+  displayImages(images[30], images[24], images[48]);
 
 }
 
@@ -214,18 +227,9 @@ drawLifeMovie = function() {
 
   fill(255);
   textSize(24);
+  displayAnswerLong("Step Up 2:", "The Streets", "Mean", "Girls", "Shawshank", "Redemption");
 
-  text("Step Up 2:", width/2 + gHover, height/3);
-  text("The Streets", width/2 + gHover, height/3 + 20);
-  image(images[47], width/2 - 100, height/2);
-
-  text("Mean", width/2 - 300 + gHover, height/3);
-  text("Girls", width/2 - 300 + gHover, height/3 + 20);
-  image(images[31], width/2 - 400, height/2);
-
-  text("Shawshank", width/2 + 300 + gHover, height/3);
-  text("Redemption", width/2 + 300 + gHover, height/3 + 20);
-  image(images[43], width/2 + 200 , height/2);
+  displayImages(images[47], images[31], images[43]);
 }
 
 // page 1 + option 2
@@ -239,11 +243,9 @@ drawHousePlant = function() {
   textSize(24);
   fill(255);
 
-  // displayAnswers("Heads","Tails","Neither");
+  displayAnswerShort("Cactus", "Aloe Vera", "Succulent");
 
-  text("Cactus", width/2 + gHover, height/3);
-  text("Aloe Vera", width/2 - 300 + gHover, height/3);
-  text("Succulent", width/2 + 300 + gHover, height/3);
+  displayImages(images[119], images[120], images[121]);
 }
 
 // page 1 + option 3
@@ -256,10 +258,10 @@ drawFlower = function() {
 
   textSize(24);
   fill(255);
+  displayAnswerShort("Rose", "Lily", "Daffodil");
 
-  text("Rose", width/2 + gHover, height/3);
-  text("Lily", width/2 - 300 + gHover, height/3);
-  text("Daffodil", width/2 + 300 + gHover, height/3);
+  displayImages(images[116], images[117], images[118]);
+
 }
 
 
@@ -274,17 +276,9 @@ drawDADAProf = function() {
   textSize(24);
   fill(255);
 
-  text("Dolores", width/2 + gHover, height/3);
-  text("Umbridge", width/2 + gHover, height/3 + 20);
-  image(images[12], width/2 - 100, height/2);
+  displayAnswerLong("Dolores", "Umbridge", "Mad-Eye", "Moody", "Remus", "Lupin");
 
-  text("Mad-Eye", width/2 - 300 + gHover, height/3);
-  text("Moody", width/2 - 300 + gHover, height/3 + 20);
-  image(images[29], width/2 - 400, height/2);
-
-  text("Remus", width/2 + 300 + gHover, height/3);
-  text("Lupin", width/2 + 300 + gHover, height/3 + 20);
-  image(images[40], width/2 + 200, height/2);
+  displayImages(images[12], images[29], images[40]);
 
 }
 
@@ -299,14 +293,9 @@ drawOuterPlanet = function() {
   textSize(24);
   fill(255);
 
-  text("Neptune", width/2 + gHover, height/3);
-  image(images[33], width/2 - 100, height/2);
+  displayAnswerShort("Neptune", "Pluto", "Jupiter");
 
-  text("Pluto", width/2 - 300 + gHover, height/3);
-  image(images[41], width/2 - 400, height/2);
-
-  text("Jupiter", width/2 + 300 + gHover, height/3);
-  image(images[25], width/2 + 200, height/2);
+  displayImages(images[33], images[41], images[25]);
 
 }
 
@@ -321,18 +310,9 @@ drawCerealBrand = function() {
   textSize(24);
   fill(255);
 
-  text("Frosted", width/2 + gHover, height/3);
-  text("Flakes", width/2 + gHover, height/3 + 20);
-  image(images[19], width/2 - 100, height/2);
+  displayAnswerLong("Frosted", "Flakes", "Cinnamon", "Toast Crunch", "Froot", "Loops");
 
-  text("Cinnamon", width/2 - 300 + gHover, height/3);
-  text("Toast Crunch", width/2 - 300 + gHover, height/3 + 20);
-  image(images[9], width/2 - 400 , height/2);
-
-  text("Froot", width/2 + 300 + gHover, height/3);
-  text("Loops", width/2 + 300 + gHover, height/3 + 20);
-  image(images[18], width/2 + 200 , height/2);
-
+  displayImages(images[19], images[9], images[18]);
 
 }
 
@@ -347,17 +327,9 @@ drawPixarMovie = function() {
   textSize(24);
   fill(255);
 
-  text("The", width/2 + gHover, height/3);
-  text("Incredibles", width/2 + gHover, height/3 + 20);
-  image(images[49], width/2 - 100, height/2);
+  displayAnswerLong("The", "Incredibles", "Finding", "Nemo", "Toy", "Story");
 
-  text("Finding", width/2 - 300 + gHover, height/3);
-  text("Nemo", width/2 - 300 + gHover, height/3 + 20);
-  image(images[17], width/2 - 400, height/2);
-
-  text("Toy", width/2 + 300 + gHover, height/3);
-  text("Story", width/2 + 300 + gHover, height/3 + 20);
-  image(images[54], width/2 + 200, height/2);
+  displayImages(images[49], images[17], images[54]);
 
 }
 
@@ -373,17 +345,9 @@ drawTvEnding= function() {
   textSize(24);
   fill(255);
 
-  text("Game of", width/2 + gHover, height/3);
-  text("Thrones", width/2 + gHover, height/3 + 20);
-  image(images[59], width/2 - 100, height/2);
+  displayAnswerLong("Game of", "Thrones", "Lost", "  ", "How I Met", "Your Mother");
 
-  text("Lost", width/2 - 300 + gHover, height/3);
-  image(images[60], width/2 - 400, height/2);
-
-  text("How I Met", width/2 + 300 + gHover, height/3);
-  text("Your Mother", width/2 + 300 + gHover, height/3 + 20);
-  image(images[61], width/2 + 200, height/2);
-
+  displayImages(images[59], images[60], images[61]);
 
 }
 
@@ -398,14 +362,9 @@ drawBread = function() {
   textSize(24);
   fill(255);
 
-  text("Brioche", width/2 + gHover, height/3);
-  image(images[4], width/2 - 100, height/2);
+  displayAnswerShort("Brioche", "Baguette", "Sourdough");
 
-  text("Baguette", width/2 - 300 + gHover, height/3);
-  image(images[3], width/2 - 400, height/2);
-
-  text("Sourdough", width/2 + 300 + gHover, height/3);
-  image(images[45], width/2 + 200, height/2);
+  displayImages(images[4], images[3], images[45]);
 
 }
 
@@ -419,14 +378,9 @@ drawPastaShape = function() {
   textSize(24);
   fill(255);
 
-  text("Elbows", width/2 + gHover, height/3);
-  image(images[13], width/2 - 100, height/2);
+  displayAnswerShort("Elbows", "Farfalle", "Penne");
 
-  text("Farfalle", width/2 - 300 + gHover, height/3);
-  image(images[16], width/2 - 400, height/2);
-
-  text("Penne", width/2 + 300 + gHover, height/3);
-  image(images[37], width/2 + 200, height/2);
+  displayImages(images[13], images[16], images[37]);
 
 }
 
@@ -441,18 +395,9 @@ drawShrekCharacters = function() {
   textSize(24);
   fill(255);
 
-  text("Gingerbread", width/2 + gHover, height/3);
-  text("Man", width/2 + gHover, height/3 + 20);
-  image(images[14], width/2 - 400, height/2);
+  displayAnswerLong("Gingerbread", "Man", "Fairy God", "Mother", "Lord", "Farquaad");
 
-
-  text("Fairy God", width/2 - 300 + gHover, height/3);
-  text("Mother", width/2 - 300 + gHover, height/3 + 20);
-  image(images[21], width/2 - 100, height/2);
-
-  text("Lord", width/2 + 300 + gHover, height/3);
-  text("Farquaad", width/2 + 300 + gHover, height/3 + 20);
-  image(images[28], width/2 + 200, height/2);
+  displayImages(images[14], images[21], images[28]);
 
 }
 
@@ -467,16 +412,10 @@ drawPie = function() {
   textSize(24);
   fill(255);
 
-  text("Pumpkin", width/2 + gHover, height/3);
-  image(images[39], width/2 - 100, height/3);
+  displayAnswerShort("Pumpkin", "Peacan", "Apple");
 
-  text("Peacan", width/2 - 300 + gHover, height/3);
-  image(images[36], width/2 - 400, height/3);
-
-  text("Apple", width/2 + 300 + gHover, height/3);
-  image(images[0], width/2 + 200, height/3);
-
-  
+  displayImages(images[39], images[36], images[0]);
+ 
 }
 
 // page 1 + option 1 + option 1 + option 1
@@ -489,17 +428,10 @@ drawLifeSwitch = function() {
 
   textSize(24);
   fill(255);
-  text("Shaquille", width/2 + gHover, height/3);
-  text("O'Neal", width/2 + gHover, height/3 + 20);
-  image(images[42], width/2 - 150, height/2);
 
-  text("Kris", width/2 - 300 + gHover, height/3);
-  text("Jenner", width/2 - 300 + gHover, height/3 + 20);
-  image(images[27], width/2 - 470, height/2);
+  displayAnswerLong("Shaquille", "O'Neal", "Kris", "Jenner", "Timothee.", "Chalamet");
 
-  text("Timothee.", width/2 + 300 + gHover, height/3);
-  text("Chalamet", width/2 + 300 + gHover, height/3 + 20);
-  image(images[51], width/2 + 200, height/2);
+  displayImages(images[42], images[27], images[51]);
 
 }
 
@@ -514,17 +446,9 @@ drawTheOfficeCharacter= function() {
   textSize(24);
   fill(255);
 
-  text("Creed", width/2 + gHover, height/2);
-  text("Bratton", width/2 + gHover, height/2 + 20);
-  image(images[11], width/2 - 100, height/2 + 50);
+  displayAnswerLong("Creed", "Bratton", "Kelly", "Kapoor", "Meredith", "Palmer");
 
-  text("Kelly", width/2 - 300 + gHover, height/2);
-  text("Kapoor", width/2 - 300 + gHover, height/2 + 20);
-  image(images[26], width/2 - 400, height/2 + 50);
-
-  text("Meredith", width/2 + 300 + gHover, height/2);
-  text("Palmer", width/2 + 300 + gHover, height/2 + 20);
-  image(images[32], width/2 + 200, height/2 + 50);
+  displayImages(images[11], images[26], images[32]);
 
 }
 
@@ -539,14 +463,9 @@ drawMarvelSidekick = function() {
   textSize(24);
   fill(255);
 
-  text("Falcon", width/2 - 300 + gHover, height/3);
-  image(images[15], width/2 - 400, height/2);
+  displayAnswerShort("Falcon", "Bucky", "Shuri");
 
-  text("Bucky", width/2 + gHover, height/3);
-  image(images[5], width/2 - 100, height/2);
-
-  text("Shuri", width/2 + 300 + gHover, height/3);
-  image(images[44], width/2 + 200, height/2);
+  displayImages(images[15], images[5], images[44]);
 
 }
 
@@ -562,15 +481,9 @@ drawBreakfast = function() {
   textSize(24);
   fill(255);
 
-  text("Avocado", width/2 + gHover, height/3);
-  text("Toast", width/2 + gHover, height/3 + 20);
-  image(images[2], width/2 - 100, height/2);
+  displayAnswerLong("Avocado", "Toast", "Pancakes", " ", "Cereal", " ");
 
-  text("Pancakes", width/2 + 300 + gHover, height/3);
-  image(images[34], width/2 + 200, height/2);
-
-  text("Cereal", width/2 - 300 + gHover, height/3); 
-  image(images[7], width/2 - 400, height/2);
+  displayImages(images[2], images[34], images[7]);
   
 }
 
@@ -585,14 +498,9 @@ drawAdobeApp = function() {
   textSize(24);
   fill(255);
 
-  text("InDesign", width/2 + gHover, height/3);
-  image(images[23], width/2 - 100, height/2);
+  displayAnswerShort("InDesign", "XD", "Photoshop");
 
-  text("XD", width/2 - 300 + gHover, height/3);
-  image(images[55], width/2 - 400, height/2);
-
-  text("Photoshop", width/2 + 300 + gHover, height/3);
-  image(images[38], width/2 + 200, height/2);
+  displayImages(images[23], images[55], images[38]);
 
 }
 
@@ -607,14 +515,9 @@ drawPokemonStarter = function() {
   textSize(24);
   fill(255);
 
-  text("Squirtle", width/2 + gHover, height/3);
-  image(images[46], width/2 - 100, height/2);
+  displayAnswerShort("Squirtle", "Bulbasaur", "Charmander");
 
-  text("Bulbasaur", width/2 - 300 + gHover, height/3);
-  image(images[6], width/2 - 400, height/2);
-
-  text("Charmander", width/2 + 300 + gHover, height/3);
-  image(images[8], width/2 + 200, height/2);
+  displayImages(images[46], images[6], images[8]);
 
 }
 
@@ -629,17 +532,9 @@ drawSpiderman = function() {
   textSize(24);
   fill(255);
 
-  text("Toby", width/2 + gHover, height/3);
-  text("Maguire", width/2 + gHover, height/3 + 20);
-  image(images[1], width/2 - 400, height/2);
+  displayAnswerLong("Toby", "Maguire", "Andrew", "Garfield", "Tom", "Holland");
 
-  text("Andrew", width/2 - 300 + gHover, height/3);
-  text("Garfield", width/2 - 300 + gHover, height/3 + 20);
-  image(images[52], width/2 - 120, height/2);
-
-  text("Tom", width/2 + 300 + gHover, height/3);
-  text("Holland", width/2 + 300 + gHover, height/3 + 20);
-  image(images[53], width/2 + 200, height/2);
+  displayImages(images[1], images[52], images[53]);
 
 }
 
@@ -654,16 +549,9 @@ drawRewatchShow= function() {
   textSize(24);
   fill(255);
 
-  text("The", width/2 + gHover, height/3);
-  text("Office", width/2 + gHover, height/3 + 20);
-  image(images[50], width/2 - 100, height/2);
+  displayAnswerLong("The", "Office", "Community", " ", "Parks", "and Recs");
 
-  text("Community", width/2 - 300 + gHover, height/3);
-  image(images[10], width/2 - 420, height/2);
-
-  text("Parks", width/2 + 300 + gHover, height/3);
-  text("and Recs", width/2 + 300 + gHover, height/3 + 20);
-  image(images[35], width/2 + 200, height/2);
+  displayImages(images[50], images[10], images[35]);
 
 }
 
@@ -678,18 +566,9 @@ draw80sHit= function() {
   textSize(24);
   fill(255);
 
-  text("Total Eclipse ", width/2 + gHover, height/3);
-  text("Of The Heart", width/2 + gHover, height/3 + 20);
-  image(images[58], width/2 - 100, height/2);
+  displayAnswerLong("Total Eclipse ", "Of The Heart", "I Want To Dance", "With Somebody", "Don't Stop", "Believing");
 
-  text("I Want To Dance", width/2 - 300 + gHover, height/3);
-  text("With Somebody", width/2 - 300 + gHover, height/3 + 20);
-  image(images[56], width/2 - 450, height/2);
-
-  text("Don't Stop", width/2 + 300 + gHover, height/3);
-  text("Believing", width/2 + 300 + gHover, height/3 + 20);
-  image(images[57], width/2 + 250, height/2);
-
+  displayImages(images[58], images[56], images[57]);
 }
 
 // page 1 + option 2 + option 1 + option 1
@@ -703,15 +582,9 @@ drawTheaterSnack = function() {
   textSize(24);
   fill(255);
 
-  text("Hot", width/2 + gHover, height/3);
-  text("Dog", width/2 + gHover, height/3 + 20);
-  // image(images[62], width/2 - 100, height/2);
+  displayAnswerLong("Hot", "Dog", "Nachos", " ", "Popcorn", " ");
 
-  text("Nachos", width/2 + 300 + gHover, height/3);
-  // image(images[63], width/2 + 200, height/2);
-
-  text("Popcorn", width/2 - 300 + gHover, height/3);
-  // image(images[64], width/2 - 400, height/2);
+  displayImages(images[62], images[63], images[64]);
 
 }
 
@@ -725,14 +598,10 @@ drawNuggetShape = function() {
 
   textSize(24);
   fill(255);
-  text("Ball", width/2 + gHover, height/3);
-  // image(images[68], width/2, height/2);
 
-  text("Bone", width/2 + 300 + gHover, height/3);
-  // image(images[70], width/2, height/2);
+  displayAnswerShort("Ball", "Bone", "Boot");
 
-  text("Boot", width/2 - 300 + gHover, height/3);
-  // image(images[69], width/2, height/2);
+  displayImages(images[65], images[66], images[67]);
 
 }
 // page 1 + option 2 + option 1 + option 3
@@ -746,17 +615,9 @@ drawBook = function() {
   textSize(24);
   fill(255);
 
-  text("To Kill A", width/2 + gHover, height/3);
-  text("Mockingbird", width/2 + gHover, height/3 + 20);
-  // image(images[67], width/2 - 400, height/2);
+  displayAnswerLong("To Kill A", "Mockingbird", "The Catcher", "In The Rye", "The Great", "Gatsby");
 
-  text("The Catcher", width/2 - 300 + gHover, height/3);
-  text("In The Rye", width/2 - 300 + gHover, height/3 + 20);
-  // image(images[65], width/2 - 100, height/2);
-
-  text("The Great", width/2 + 300 + gHover, height/3);
-  text("Gatsby", width/2 + 300 + gHover, height/3 + 20);
-  // image(images[66], width/2 + 200, height/2);
+  displayImages(images[68], images[69], images[70]);
 
 }
 
@@ -771,14 +632,9 @@ drawChip = function() {
   textSize(24);
   fill(255);
 
-  text("Lays", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerShort("Lays", "Doritos", "Cheetos");
+  displayImages(images[71], images[72], images[73]);
 
-  text("Doritos", width/2 - 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
-  text("Cheetos", width/2 + 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
 
 }
 
@@ -793,16 +649,9 @@ drawChristmasMovie = function() {
   textSize(24);
   fill(255);
 
-  text("Elf", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerLong("Elf", "Home", "Alone", "The Nightmare", "Before Christmas");
 
-  text("Home", width/2 - 300 + gHover, height/3);
-  text("Alone", width/2 - 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
-
-  text("The Nightmare", width/2 + 300 + gHover, height/3);
-  text("Before Christmas", width/2 + 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
+  displayImages(images[74], images[75], images[76]);
 
 }
 
@@ -818,15 +667,9 @@ drawDogBreed = function() {
   textSize(24);
   fill(255);
 
-  text("Corgi", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerShort("Corgi", "Pugs", "Dachshund");
 
-  text("Pugs", width/2 - 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
-  text("Dachshund", width/2 + 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
+  displayImages(images[77], images[78], images[79]);
 
 }
 
@@ -841,16 +684,9 @@ drawAnimatedSeries = function() {
   textSize(24);
   fill(255);
 
-  text("Futurama", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerLong("Futurama", "Avatar: The", "Last Airbender", "Rick and", "Morty");
 
-  text("Avatar: The", width/2 - 300 + gHover, height/3);
-  text("Last Airbender", width/2 - 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
-
-  text("Rick and", width/2 + 300 + gHover, height/3);
-  text("Morty", width/2 + 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
+  displayImages(images[80], images[81], images[82]);
 
 }
 
@@ -864,15 +700,11 @@ drawMichaelCera = function() {
 
   textSize(24);
   fill(255);
-  text("Scott Pilgrim Vs.", width/2 + gHover, height/3);
-  text("The World", width/2 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
 
-  text("Superbad", width/2 - 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerLong("Scott Pilgrim Vs.", "The World", "Superbad", " ", "Juno", " "); 
 
-  text("Juno", width/2 + 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayImages(images[83], images[84], images[85]);
+
 }
 
 // page 1 + option 2 + option 3 + option 3
@@ -886,16 +718,9 @@ drawChickFlick = function() {
   textSize(24);
   fill(255);
 
-  text("Clueless ", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerLong("Clueless "," ", "She's", "The Man", "10 Things I", "Hate About You");
 
-  text("She's", width/2 - 300 + gHover, height/3);
-  text("The Man", width/2 - 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
-
-  text("10 Things I", width/2 + 300 + gHover, height/3);
-  text("Hate About You", width/2 + 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
+  displayImages(images[86], images[87], images[88]);
 
 }
 
@@ -910,17 +735,9 @@ drawJohnHugesMovie= function() {
   textSize(24);
   fill(255);
 
-  text("The Breakfast", width/2 + gHover, height/3);
-  text("Club", width/2 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
+  displayAnswerLong("The Breakfast", "Club", "Sixteen", "Candles", "Ferris Bueller's", "Day Off");
 
-  text("Sixteen", width/2 - 300 + gHover, height/3);
-  text("Candles", width/2 - 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
-
-  text("Ferris Bueller's.", width/2 + 300 + gHover, height/3);
-  text("Day Off", width/2 + 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
+  displayImages(images[89], images[90], images[91]);
 
 }
 
@@ -934,14 +751,9 @@ drawCity = function() {
   textSize(24);
   fill(255);
 
-  text("Rome", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerShort("Rome", "Tokyo", "Rio de Janeiro");
 
-  text("Tokyo", width/2 - 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
-  text("Rio de Janeiro", width/2 + 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayImages(images[92], images[93], images[94]);
 
 }
 
@@ -956,16 +768,9 @@ drawPizzaChain = function() {
   textSize(24);
   fill(255);
 
-  text("Dominos", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerLong("Dominos", " ", "Pizza", "Hut", "Papa", "John's");
 
-  text("Pizza", width/2 - 300 + gHover, height/3);
-  text("Hut", width/2 - 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
-
-  text("Papa", width/2 + 300 + gHover, height/3);
-  text("John's", width/2 + 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
+  displayImages(images[95], images[96], images[97]);
 
 }
 
@@ -980,14 +785,9 @@ drawHalloweenCandy = function() {
   textSize(24);
   fill(255);
 
-  text("Reese's", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerShort("Reese's", "Snickers", "Kit Kat");
 
-  text("Snickers", width/2 - 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
-  text("Kit Kat", width/2 + 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayImages(images[98], images[99], images[100]);
 
 }
 
@@ -1002,17 +802,9 @@ drawIceCream = function() {
   textSize(24);
   fill(255);
 
-  text("Firecracker", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerLong("Firecracker", " ", "Strawberry", "Shortcake", "Choco", "Taco");
 
-  text("Strawberry", width/2 - 300 + gHover, height/3);
-  text("Shortcake Bar", width/2 - 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
-
-  text("Choco", width/2 + 300 + gHover, height/3);
-  text("Taco", width/2 + 300 + gHover, height/3 + 20);
-  // image(images[], width/2, height/2);
-
+  displayImages(images[101], images[102], images[103]);
 
 }
 
@@ -1027,18 +819,13 @@ drawSuperpower = function() {
   textSize(24);
   fill(255);
 
-  text("Superstrength", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerShort("Superstrength", "Telekinesis", "Flight");
 
-  text("Telekinesis", width/2 - 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
-  text("Flight", width/2 + 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
+  displayImages(images[104], images[105], images[106]);
 
 }
 
+// page 1 + option 3 + option 3 + option 1
 drawDreamJob = function() {
   fill('#1DB954');
   textSize(35);
@@ -1049,17 +836,12 @@ drawDreamJob = function() {
   textSize(24);
   fill(255);
 
-  text("Vet", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerShort("Vet", "Firefighter", "Astronaut");
 
-  text("Firefighter", width/2 - 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
-  text("Astronout", width/2 + 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
+  displayImages(images[107], images[108], images[109]);
 
 }
+
 
 // page 1 + option 3 + option 3 + option 2
 drawCoffeeChain = function() {
@@ -1072,15 +854,9 @@ drawCoffeeChain = function() {
   textSize(24);
   fill(255);
 
+  displayAnswerShort("Starbucks", "Peet's", "Dunkin'");
 
-  text("Starbucks", width/2 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
-  text("Peet's", width/2 - 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
-
-  text("Dunkin'", width/2 + 300 + gHover, height/3);
-  // image(images[], width/2, height/2);
+  displayImages(images[110], images[111], images[112]);
 
 }
 
@@ -1094,15 +870,10 @@ drawDecade = function() {
 
   textSize(24);
   fill(255);
-  text("1920s'", width/2, height/3);
-  // image(images[], width/2, height/2);
 
-  text("1950's", width/2 - 300, height/3);
-  // image(images[], width/2, height/2);
+  displayAnswerShort("1920's", "1950's", "1970's");
 
-  text("1970's", width/2 + 300, height/3);
-  // image(images[], width/2, height/2);
-
+  displayImages(images[113], images[114], images[115]);
 }
 
 drawStarBackground = function() {
