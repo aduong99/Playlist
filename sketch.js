@@ -684,7 +684,7 @@ drawAnimatedSeries = function() {
   textSize(24);
   fill(255);
 
-  displayAnswerLong("Futurama", "Avatar: The", "Last Airbender", "Rick and", "Morty");
+  displayAnswerLong("Futurama", " ", "Avatar: The", "Last Airbender", "Rick and", "Morty");
 
   displayImages(images[80], images[81], images[82]);
 
