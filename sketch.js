@@ -54,7 +54,8 @@ var playlist1 = [];
 // global variables for instructions page
 var midX;
 var startY;
-var lineHeight = 60;
+var lineHeight1 = 60;
+var lineHeight2 = 40;
 
 // global variables for stars background
 var spot = {
@@ -145,7 +146,7 @@ drawRandomPlaylist = function() {
   textSize(15);
 
   for( let i = 0 ; i < numSmallStrings; i++ ) {
-      text( smallStrings[i], midX, startY + (i * lineHeight) )
+      text( smallStrings[i], midX, startY + (i * lineHeight2) )
   }
 
   image(images[122]);
@@ -163,7 +164,7 @@ drawIntro = function() {
 
   // parse though string array
   for ( let i = 0; i < intro.length; i++ ) {
-    text( intro[i], midX, startY + (i * lineHeight) + gHover );
+    text( intro[i], midX, startY + (i * lineHeight1) + gHover );
   }
   return;
 }
