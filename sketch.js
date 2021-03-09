@@ -142,7 +142,7 @@ drawRandomPlaylist = function() {
   textSize(15);
 
   for( let i = 0 ; i < numSmallStrings; i++ ) {
-      text( smallStrings[i], midX, startY + (i * lineHeight2) )
+      text( smallStrings[i], midX, startY + (i * lineHeight2) + gHover)
   }
   return;
 }
