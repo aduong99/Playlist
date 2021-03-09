@@ -54,7 +54,7 @@ var playlist1 = [];
 // global variables for instructions page
 var midX;
 var startY;
-var lineHeight = 40;
+var lineHeight = 60;
 
 // global variables for stars background
 var spot = {
@@ -163,7 +163,7 @@ drawIntro = function() {
 
   // parse though string array
   for ( let i = 0; i < intro.length; i++ ) {
-    text( intro[i], midX, startY + (i * lineHeight) );
+    text( intro[i], midX, startY + (i * lineHeight) + gHover );
   }
   return;
 }
@@ -192,9 +192,9 @@ function displayAnswerShort(answer1, answer2, answer3) {
 }
 
 function displayImages(image1, image2, image3) {
-  image(image1,  width/2 - 100 + gHover, height/2);
-  image(image2, width/2 - 400 + gHover, height/2);
-  image(image3, width/2 + 200 +gHover, height/2);
+  image(image1,  width/2 - 100, height/2 + gHover);
+  image(image2, width/2 - 400, height/2 + gHover);
+  image(image3, width/2 + 200, height/2 + gHover);
 }
 
 function drawWindowScreen() {
