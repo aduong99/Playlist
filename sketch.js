@@ -17,7 +17,7 @@
 var images = [];
 
 // array of assets
-var assets = ['applePie.png', 'andrewGarfield.png', 'avocadoToast.png', 'baguette.png', 'brioche.png', 'bucky.png', 'bulbasaur.png', 'cereal.png', 'charmander.png', 'cinnamonToast.png', 'community.png', 'creedBratton.png', 'doloresUmbridge.png', 'elbows.png', 'fairyGodMother.png', 'falcon.png', 'farfalle.png', 'findingNemo.png', 'frootLoops.png', 'frostedFlakes.png', 'gameofThrones.png','gingerbreadMan.png',  'himym.png', 'indesign.png', 'innoutBurger.png', 'jupiter.png', 'kellyKapoor.png', 'krisJenner.png', 'lordFarquaad.png', 'madEyeMoody.png', 'mcdFries.png', 'meanGirls.png', 'meredithPalmer.png','neptune.png', 'pancakes.png', 'parksAndRec.png', 'pecanPie.png', 'penne.png', 'photoshop.png', 'pumpkinPie.png','remusLupin.png', 'pluto.png', 'shaq.png', 'shawshank.png', 'shuri.png', 'sourdough.png', 'squirtle.png', 'stepUp2.png', 'tbCrunchWrap.png', 'theIncredibles.png','theOffice.png', 'timotheeChalamet.png', 'tobyMaguire.png','tomHolland.png', 'toyStory.png', 'xd.png', 'danceWithSomebody.png', 'dontStopBelieving.png', 'totalEclipse.png', 'jonSnow.png', 'hurley.png','tedMosby.png', 'hotDog.png', 'nachos.png', 'popcorn.png', 'ball.png', 'bone.png', 'boot.png', 'killAMockingBird.png', 'catcherInRye.png', 'theGreatGatsby.png', 'lays.png', 'doritos.png', 'cheetos.png', 'elf.png', 'homeAlone.png', 'nightmare.png', 'corgi.png', 'pug.png', 'dachshund.png', 'futurama.png', 'avatar.png', 'rickAndMorty.png', 'scottPilgrim.png', 'superbad.png', 'juno.png', 'clueless.png', 'shesTheMan.png', '10things.png', 'breakfastClub.png', 'sixteenCandles.png', 'ferris.png', 'rome.png', 'tokyo.png', 'rio.png', 'dominos.png', 'pizzaHut.png', 'papaJohns.png', 'reese.png', 'snickers.png', 'kitKat.png', 'firecracker.png', 'strawberryShortcake.png', 'chocoTaco.png', 'hulk.png', 'profX.png', 'superman.png', 'vet.png', 'firefighter.png', 'astronaut.png', 'starbucks.png', 'peets.png', 'dunkin.png', '1920.png', '1950.png', '1970.png', 'rose.png', 'lily.png', 'daffodil.png', 'cactus.png', 'aloeVera.png', 'succulent.png'];
+var assets = ['applePie.png', 'andrewGarfield.png', 'avocadoToast.png', 'baguette.png', 'brioche.png', 'bucky.png', 'bulbasaur.png', 'cereal.png', 'charmander.png', 'cinnamonToast.png', 'community.png', 'creedBratton.png', 'doloresUmbridge.png', 'elbows.png', 'fairyGodMother.png', 'falcon.png', 'farfalle.png', 'findingNemo.png', 'frootLoops.png', 'frostedFlakes.png', 'gameofThrones.png','gingerbreadMan.png',  'himym.png', 'indesign.png', 'innoutBurger.png', 'jupiter.png', 'kellyKapoor.png', 'krisJenner.png', 'lordFarquaad.png', 'madEyeMoody.png', 'mcdFries.png', 'meanGirls.png', 'meredithPalmer.png','neptune.png', 'pancakes.png', 'parksAndRec.png', 'pecanPie.png', 'penne.png', 'photoshop.png', 'pumpkinPie.png','remusLupin.png', 'pluto.png', 'shaq.png', 'shawshank.png', 'shuri.png', 'sourdough.png', 'squirtle.png', 'stepUp2.png', 'tbCrunchWrap.png', 'theIncredibles.png','theOffice.png', 'timotheeChalamet.png', 'tobyMaguire.png','tomHolland.png', 'toyStory.png', 'xd.png', 'danceWithSomebody.png', 'dontStopBelieving.png', 'totalEclipse.png', 'jonSnow.png', 'hurley.png','tedMosby.png', 'hotDog.png', 'nachos.png', 'popcorn.png', 'ball.png', 'bone.png', 'boot.png', 'killAMockingBird.png', 'catcherInRye.png', 'theGreatGatsby.png', 'lays.png', 'doritos.png', 'cheetos.png', 'elf.png', 'homeAlone.png', 'nightmare.png', 'corgi.png', 'pug.png', 'dachshund.png', 'futurama.png', 'avatar.png', 'rickAndMorty.png', 'scottPilgrim.png', 'superbad.png', 'juno.png', 'clueless.png', 'shesTheMan.png', '10things.png', 'breakfastClub.png', 'sixteenCandles.png', 'ferris.png', 'rome.png', 'tokyo.png', 'rio.png', 'dominos.png', 'pizzaHut.png', 'papaJohns.png', 'reese.png', 'snickers.png', 'kitKat.png', 'firecracker.png', 'strawberryShortcake.png', 'chocoTaco.png', 'hulk.png', 'profX.png', 'superman.png', 'vet.png', 'firefighter.png', 'astronaut.png', 'starbucks.png', 'peets.png', 'dunkin.png', '1920.png', '1950.png', '1970.png', 'rose.png', 'lily.png', 'daffodil.png', 'cactus.png', 'aloeVera.png', 'succulent.png', 'windowScreen.png'];
 
 
 // variable that is a function 
@@ -40,7 +40,7 @@ var i = 0;
 var intro = ['Hi!', 'Are you ready to get a random playlist?', 'All you need to do is answer a few questions :-)', 'Press key #1-3 to choose an answer from left to right', 'Press key " S " to start', 'Press key " I " to go back to this page', 'Press key " T " to go back to the title page'];
 
 
-var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It On The Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Unwritten by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach House', 'Reptilla by The Strokes', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra', '679 by Fetty Wap', 'Nice For What by Drake', 'You Belong With Me by Taylor Swift', 'No Flocking by Kodack Black', 'Faneto by Chief Keef', 'Spring Day by BTS', 'Heartshaker by Twice', 'Half Moon by Dean', 'Your Song by Birdy', 'Ordinary People by John Legend', 'Redbone by Childish Gambino', 'Who Hurt You? by Daniel Caesar', 'Honey by Kehlany', '5% Tint by Travis Scott', 'Sideline Watching by Lil Uzi', 'Dior by Pop Smoke', 'If I Were A Boy by Beyonce', "Marvin's Room by Drake", 'Bleeding Love by Leona Lewis', 'Because of You by Kelly Clarkson', 'Complicated by Avril Lavigne', 'The Only Exception by Paramore', 'Epiphany by BTS', 'Hot Girl by Megan Thee Stallion', 'No Diggity by Blackstreet', 'Shoop by Salt-N-Pepa', 'The Next Episode by Dr. Dre and Snoop Dogg', 'Back & Forth by Aaliyah', 'Creep by TLC', "Lady by D'Angelo", 'C.R.E.A.M. by Wu-Tang Clan', 'Poison by Bell Biv DeVoe', 'How Do You Want It by Tupac', 'The Real Slim Shady by Eminem', 'Oops!... I Did It Again by Britney Spears', 'Wish You Were Here by Pink Floyd', 'Crazy by Gnarls Barkley', 'Hotel California by Eagles', 'Septempber by Earth, Wind, Fire', 'Superstition by Stevie Wonder', 'Hound Dog by Elvis Presley', 'Africa by TOTO', 'Play That Funky Music by Wild Cherry', 'Sunny by Boney M.', 'Who Says by Selena Gomez', 'S.O.S by the Jonas Brothers', '7 Things by Miley Cyrus', 'Boyfriend by Big Time Rush', 'Bet On It by Troy', 'Cherry Wine', 'Yellow by Coldplay', 'lays.png', 'doritios.png', 'cheetos.png', 'breakfastClub.png', 'sixteenCandles.png', 'ferris.png']
+var strings = ['What Makes You Beautiful by One Direction', 'Take On Me by a-ha', 'Beat It by Michael Jackson', 'No More Parties In LA by Kanye West', 'The Scientist by Coldplay', 'Circles by Mac Miller', 'Ex-Factor by Ms. Laurym Hill', 'Hypnotize by Biggie Smalls', 'Blame It On The Boogie by The Jacksons', 'Night Fever by Bee Gees', 'Dancing Queen by ABBA', 'Drew Barrymore by SZA', 'Lost by Frank Ocean', 'Put Your Head On My Shoulders by Paul Anka', 'Put You Records On by Corinne Bailey Rae', 'Pluto Projector by Rex Orange County', 'Stuck On You by Giveon', 'Eternal Sunshine by Jhene Aiko', 'Unwritten by Natasha Beddingfield', 'No Air by Jordan Sparks', 'Your Love Is My Drug by Kesha', "Hey There Delilah by Plain White T's", "Livin' La Vida Loca by Ricky Martin", 'End Of The Road by Boyz ll Men', 'Smooth by Sanatana (ft. Rob Thomas)', 'Obsessed by Mariah Carey', '505 by The Artic Monkeys', 'Enter Sandman by Metallica', 'Another Brick in the Wall, Pt. 2 by Pink Floyd', 'Blackbird by The Beatles', 'Space Song by Beach House', 'Reptilla by The Strokes', 'Come Thru by Summer Walker ft. Usher', 'Find Someone Like You by Snoh Aalegra', '679 by Fetty Wap', 'Nice For What by Drake', 'You Belong With Me by Taylor Swift', 'No Flocking by Kodack Black', 'Faneto by Chief Keef', 'Spring Day by BTS', 'Heartshaker by Twice', 'Half Moon by Dean', 'Your Song by Birdy', 'Ordinary People by John Legend', 'Redbone by Childish Gambino', 'Who Hurt You? by Daniel Caesar', 'Honey by Kehlany', '5% Tint by Travis Scott', 'Sideline Watching by Lil Uzi', 'Dior by Pop Smoke', 'If I Were A Boy by Beyonce', "Marvin's Room by Drake", 'Bleeding Love by Leona Lewis', 'Because of You by Kelly Clarkson', 'Complicated by Avril Lavigne', 'The Only Exception by Paramore', 'Epiphany by BTS', 'Hot Girl by Megan Thee Stallion', 'No Diggity by Blackstreet', 'Shoop by Salt-N-Pepa', 'The Next Episode by Dr. Dre and Snoop Dogg', 'Back & Forth by Aaliyah', 'Creep by TLC', "Lady by D'Angelo", 'C.R.E.A.M. by Wu-Tang Clan', 'Poison by Bell Biv DeVoe', 'How Do You Want It by Tupac', 'The Real Slim Shady by Eminem', 'Oops!... I Did It Again by Britney Spears', 'Wish You Were Here by Pink Floyd', 'Crazy by Gnarls Barkley', 'Hotel California by Eagles', 'Septempber by Earth, Wind, Fire', 'Superstition by Stevie Wonder', 'Hound Dog by Elvis Presley', 'Africa by TOTO', 'Play That Funky Music by Wild Cherry', 'Sunny by Boney M.', 'Who Says by Selena Gomez', 'S.O.S by the Jonas Brothers', '7 Things by Miley Cyrus', 'Boyfriend by Big Time Rush', 'Bet On It by Troy', 'Cherry Wine', 'Yellow by Coldplay']
 
 // generate an array of random strings from the master set
 var smallStrings = [];
@@ -75,10 +75,6 @@ function preload() {
   for ( var i = 0; i < assets.length; i++ ) {
     images[i] = loadImage('assets/' + assets[i])
   }
-
-
-  // images[0] = loadImage('assets/five.png');
-
 }
 
 // center drawing, drawFunction will be Intro for default
@@ -134,7 +130,6 @@ drawTitle = function() {
 }
 
 drawRandomPlaylist = function() {
-
   // header
   fill('#1DB954');
   textSize(35);
@@ -152,6 +147,8 @@ drawRandomPlaylist = function() {
   for( let i = 0 ; i < numSmallStrings; i++ ) {
       text( smallStrings[i], midX, startY + (i * lineHeight) )
   }
+
+  image(images[122]);
 
 }
 
@@ -174,7 +171,6 @@ drawIntro = function() {
 // inputs 6 answers and displays it in set position
 
 function displayAnswerLong(answer1, answer2, answer3, answer4, answer5, answer6) {
-
   text(answer1, width/2 + gHover, height/3);
   text(answer2, width/2 + gHover, height/3 + 20);
 
@@ -201,8 +197,12 @@ function displayImages(image1, image2, image3) {
   image(image3, width/2 + 200 +gHover, height/2);
 }
 
+function drawWindowScreen() {
+  image(windowScreen);
+}
+
 // page 1
-drawFastFoodItem = function() {
+drawFastFoodItem = function() {  
   fill('#1DB954');
   textSize(35);
   frameRate(5);
