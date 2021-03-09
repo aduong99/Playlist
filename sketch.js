@@ -144,9 +144,7 @@ drawRandomPlaylist = function() {
   for( let i = 0 ; i < numSmallStrings; i++ ) {
       text( smallStrings[i], midX, startY + (i * lineHeight2) )
   }
-
-  image(images[122]);
-
+  return;
 }
 
 // displays instructions 
