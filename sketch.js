@@ -642,7 +642,7 @@ drawChristmasMovie = function() {
   textSize(24);
   fill(255);
 
-  displayAnswerLong("Elf", "Home", "Alone", "The Nightmare", "Before Christmas");
+  displayAnswerLong("Elf", " ", "Home", "Alone", "The Nightmare", "Before Christmas");
 
   displayImages(images[74], images[75], images[76]);
 
