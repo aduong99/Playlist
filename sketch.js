@@ -17,7 +17,7 @@
 var images = [];
 
 // array of assets
-var assets = ['applePie.png', 'andrewGarfield.png', 'avocadoToast.png', 'baguette.png', 'brioche.png', 'bucky.png', 'bulbasaur.png', 'cereal.png', 'charmander.png', 'cinnamonToast.png', 'community.png', 'creedBratton.png', 'doloresUmbridge.png', 'elbows.png', 'fairyGodMother.png', 'falcon.png', 'farfalle.png', 'findingNemo.png', 'frootLoops.png', 'frostedFlakes.png', 'gameofThrones.png','gingerbreadMan.png',  'himym.png', 'indesign.png', 'innoutBurger.png', 'jupiter.png', 'kellyKapoor.png', 'krisJenner.png', 'lordFarquaad.png', 'madEyeMoody.png', 'mcdFries.png', 'meanGirls.png', 'meredithPalmer.png','neptune.png', 'pancakes.png', 'parksAndRec.png', 'pecanPie.png', 'penne.png', 'photoshop.png', 'pumpkinPie.png','remusLupin.png', 'pluto.png', 'shaq.png', 'shawshank.png', 'shuri.png', 'sourdough.png', 'squirtle.png', 'stepUp2.png', 'tbCrunchWrap.png', 'theIncredibles.png','theOffice.png', 'timotheeChalamet.png', 'tobyMaguire.png','tomHolland.png', 'toyStory.png', 'xd.png', 'danceWithSomebody.png', 'dontStopBelieving.png', 'totalEclipse.png', 'jonSnow.png', 'hurley.png','tedMosby.png', 'hotDog.png', 'nachos.png', 'popcorn.png', 'ball.png', 'bone.png', 'boot.png', 'killAMockingBird.png', 'catcherInRye.png', 'theGreatGatsby.png', 'lays.png', 'doritos.png', 'cheetos.png', 'elf.png', 'homeAlone.png', 'nightmare.png', 'corgi.png', 'pug.png', 'dachshund.png', 'futurama.png', 'avatar.png', 'rickAndMorty.png', 'scottPilgrim.png', 'superbad.png', 'juno.png', 'clueless.png', 'shesTheMan.png', '10things.png', 'breakfastClub.png', 'sixteenCandles.png', 'ferris.png', 'rome.png', 'tokyo.png', 'rio.png', 'dominos.png', 'pizzaHut.png', 'papaJohns.png', 'reese.png', 'snickers.png', 'kitKat.png', 'firecracker.png', 'strawberryShortcake.png', 'chocoTaco.png', 'hulk.png', 'profX.png', 'superman.png', 'vet.png', 'firefighter.png', 'astronaut.png', 'starbucks.png', 'peets.png', 'dunkin.png', '1920.png', '1950.png', '1970.png', 'rose.png', 'lily.png', 'daffodil.png', 'cactus.png', 'aloeVera.png', 'succulent.png', 'windowScreen.png'];
+var assets = ['applePie.png', 'andrewGarfield.png', 'avocadoToast.png', 'baguette.png', 'brioche.png', 'bucky.png', 'bulbasaur.png', 'cereal.png', 'charmander.png', 'cinnamonToast.png', 'community.png', 'creedBratton.png', 'doloresUmbridge.png', 'elbows.png', 'fairyGodMother.png', 'falcon.png', 'farfalle.png', 'findingNemo.png', 'frootLoops.png', 'frostedFlakes.png', 'gameofThrones.png','gingerbreadMan.png',  'himym.png', 'indesign.png', 'innoutBurger.png', 'jupiter.png', 'kellyKapoor.png', 'krisJenner.png', 'lordFarquaad.png', 'madEyeMoody.png', 'mcdFries.png', 'meanGirls.png', 'meredithPalmer.png','neptune.png', 'pancakes.png', 'parksAndRec.png', 'pecanPie.png', 'penne.png', 'photoshop.png', 'pumpkinPie.png','remusLupin.png', 'pluto.png', 'shaq.png', 'shawshank.png', 'shuri.png', 'sourdough.png', 'squirtle.png', 'stepUp2.png', 'tbCrunchWrap.png', 'theIncredibles.png','theOffice.png', 'timotheeChalamet.png', 'tobyMaguire.png','tomHolland.png', 'toyStory.png', 'xd.png', 'danceWithSomebody.png', 'dontStopBelieving.png', 'totalEclipse.png', 'jonSnow.png', 'hurley.png','tedMosby.png', 'hotDog.png', 'nachos.png', 'popcorn.png', 'ball.png', 'bone.png', 'boot.png', 'killAMockingBird.png', 'catcherInRye.png', 'theGreatGatsby.png', 'lays.png', 'doritos.png', 'cheetos.png', 'elf.png', 'homeAlone.png', 'nightmare.png', 'corgi.png', 'pug.png', 'dachshund.png', 'futurama.png', 'avatar.png', 'rickAndMorty.png', 'scottPilgrim.png', 'superbad.png', 'juno.png', 'clueless.png', 'shesTheMan.png', '10things.png', 'breakfastClub.png', 'sixteenCandles.png', 'ferris.png', 'rome.png', 'tokyo.png', 'rio.png', 'dominos.png', 'pizzaHut.png', 'papaJohns.png', 'reese.png', 'snickers.png', 'kitKat.png', 'firecracker.png', 'strawberryShortcake.png', 'chocoTaco.png', 'hulk.png', 'profX.png', 'superman.png', 'vet.png', 'firefighter.png', 'astronaut.png', 'starbucks.png', 'peets.png', 'dunkin.png', '1920.png', '1950.png', '1970.png', 'rose.png', 'lily.png', 'daffodil.png', 'cactus.png', 'aloeVera.png', 'succulent.png'];
 
 
 // variable that is a function 
@@ -152,6 +152,7 @@ drawRandomPlaylist = function() {
 
 }
 
+// displays instructions 
 drawIntro = function() {
   // position text
   midX = width/2;
@@ -169,7 +170,6 @@ drawIntro = function() {
 }
 
 // inputs 6 answers and displays it in set position
-
 function displayAnswerLong(answer1, answer2, answer3, answer4, answer5, answer6) {
   text(answer1, width/2 + gHover, height/3);
   text(answer2, width/2 + gHover, height/3 + 20);
@@ -183,6 +183,7 @@ function displayAnswerLong(answer1, answer2, answer3, answer4, answer5, answer6)
   text(answer6, width/2 + 300 + gHover, height/3 + 20)
 }
 
+//  input 3 answers and displays it in set position
 function displayAnswerShort(answer1, answer2, answer3) {
   fill(255);
   textSize(24);
@@ -191,14 +192,11 @@ function displayAnswerShort(answer1, answer2, answer3) {
   text(answer3, width/2 + 300 + gHover, height/3);
 }
 
+// input 3 images and displays it in set position
 function displayImages(image1, image2, image3) {
   image(image1,  width/2 - 100, height/2 + gHover);
   image(image2, width/2 - 400, height/2 + gHover);
   image(image3, width/2 + 200, height/2 + gHover);
-}
-
-function drawWindowScreen() {
-  image(windowScreen);
 }
 
 // page 1
@@ -936,9 +934,6 @@ function keyPressed() {
 
   // intro 
   if ( key === 'i' ) {
-
-    //  ISSUE
-
     // go to intstruction page
     drawFunction = drawIntro ;
   }
@@ -949,7 +944,6 @@ function keyPressed() {
   }
 
   if ( key === 't' ) {
-    // ISSUE
     // go to title page
     drawFunction = drawTitle ;
   }
@@ -963,17 +957,16 @@ function keyPressed() {
     }
 
     else if ( key === '2' ) {
-      // heads or tails
+      // house plants
       drawFunction = drawHousePlant ;
     }
 
     else if ( key === '3') {
-      // color
+      // flowers
       drawFunction = drawFlower ;
     }
     return;
   }
-
 
   // movies
   if ( drawFunction === drawLifeMovie
@@ -1052,7 +1045,7 @@ function keyPressed() {
 
   if ( drawFunction === drawOuterPlanet ) {
     if ( key === '1' ) {
-      // moon, stars, or plants
+      // breakfast foods
       drawFunction = drawBreakfast ;
     }
 
@@ -1178,9 +1171,6 @@ function keyPressed() {
 
   if ( drawFunction === drawPie ) {
     if ( key === '1' ) {
-
-      // ISSUE
-
       // dream job as a kid
       drawFunction = drawDreamJob ;
     }
