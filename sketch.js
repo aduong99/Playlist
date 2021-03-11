@@ -70,7 +70,7 @@ function preload() {
   Brice = loadFont('Brice/Brice-Regular.otf');
 
   for ( var i = 0; i < assets.length; i++ ) {
-    images[i] = loadImage('assets/' + assets[i])
+    images[i] = loadImage('assets/' + assets[i]);
   }
 }
 
